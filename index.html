@@ -5,17 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Outlook</title>
-    <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/02fd8c7765.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
+      <div class="wrapper">
+        <h1>Tokyo, Japan</h1>
+        <div class="row" id="result-weather">
+          <div class="col-6" id="result-weather-left">
+            <img
+              class="result-icon"
+              src="icon/partly-cloudy.svg"
+              alt="partly cloudy"
+            />
+          </div>
+          <div class="col-6" id="result-weather-right">
+            55°<small> F | C</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6" id="result-details-left">
+            <ul>
+              <li>Sunday 18:00</li>
+              <li>Partly Cloudy</li>
+            </ul>
+          </div>
+          <div class="col-6" id="result-details-right">
+            <ul>
+              <li>Humidity: 82%</li>
+              <li>Precipitation: 0%</li>
+              <li>Wind: 4 mph</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="this-week">
+            <h2>This Week</h2>
+          </div>
+        </div>
+        <small class="about"
+          >Coded by <a href="#" target="_blank">Stacy Abrams</a></small
+        >
+      </div>
     </div>
 
     <script src="src/app.js"></script>
