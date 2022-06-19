@@ -29,11 +29,14 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
 small {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 a {
@@ -79,10 +82,11 @@ small.about {
   padding-right: 0;
   padding-top: 10px;
   margin: 0 0 0 0;
+  line-height: 30px;
 }
 
 #result-details-left {
-  font-size: 22px;
+  font-size: 18px;
   text-align: right;
   line-height: 1.2;
   letter-spacing: 1px;
@@ -104,4 +108,17 @@ small.about {
 
 img {
   width: 30%;
+}
+
+#temperature {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#units {
+  font-size: 16px;
+}
+
+#description {
+  font-size: 28px;
 }

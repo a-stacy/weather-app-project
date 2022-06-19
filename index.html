@@ -22,6 +22,7 @@
     <div class="container">
       <div class="wrapper">
         <h1 id="city"></h1>
+        <small>Last Updated: <span id="date"></span></small>
         <div class="row" id="result-weather">
           <div class="col-6" id="result-weather-left">
             <img
@@ -31,20 +32,24 @@
             />
           </div>
           <div class="col-6" id="result-weather-right">
-            <span id="temperature"></span
-            ><span id="units">°<small> F | C</small></span>
+            <ul>
+              <li>
+                <span id="temperature"></span>°<span id="units"> F | C</span>
+              </li>
+              <li>
+                <span id="description"></span>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="row">
           <div class="col-6" id="result-details-left">
             <ul>
-              <li>Sunday 18:00</li>
-              <li><span id="description"></span></li>
+              <li>Humidity: <span id="humidity"></span>%</li>
             </ul>
           </div>
           <div class="col-6" id="result-details-right">
             <ul>
-              <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> mph</li>
             </ul>
           </div>
