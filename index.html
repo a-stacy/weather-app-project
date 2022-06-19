@@ -15,36 +15,37 @@
       src="https://kit.fontawesome.com/02fd8c7765.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="wrapper">
-        <h1>Tokyo, Japan</h1>
+        <h1 id="city"></h1>
         <div class="row" id="result-weather">
           <div class="col-6" id="result-weather-left">
             <img
-              class="result-icon"
+              class="result-icon float-right"
               src="icon/partly-cloudy.svg"
               alt="partly cloudy"
             />
           </div>
           <div class="col-6" id="result-weather-right">
-            55°<small> F | C</small>
+            <span id="temperature"></span
+            ><span id="units">°<small> F | C</small></span>
           </div>
         </div>
         <div class="row">
           <div class="col-6" id="result-details-left">
             <ul>
               <li>Sunday 18:00</li>
-              <li>Partly Cloudy</li>
+              <li><span id="description"></span></li>
             </ul>
           </div>
           <div class="col-6" id="result-details-right">
             <ul>
-              <li>Humidity: 82%</li>
-              <li>Precipitation: 0%</li>
-              <li>Wind: 4 mph</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> mph</li>
             </ul>
           </div>
         </div>
