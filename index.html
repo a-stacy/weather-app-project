@@ -21,6 +21,23 @@
   <body>
     <div class="container">
       <div class="wrapper">
+        <form id="search-form" class="mb-3">
+          <div class="row" id="form">
+            <div class="col-6">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Enter a city name . . ."
+                id="city-input"
+                autocomplete="off"
+                autofocus="on"
+              />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+          </div>
+        </form>
         <h1 id="city"></h1>
         <small>Last Updated: <span id="date"></span></small>
         <div class="row" id="result-weather">
