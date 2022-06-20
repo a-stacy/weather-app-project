@@ -25,33 +25,27 @@
         <small>Last Updated: <span id="date"></span></small>
         <div class="row" id="result-weather">
           <div class="col-6" id="result-weather-left">
-            <img
-              class="result-icon float-right"
-              src="icon/partly-cloudy.svg"
-              alt="partly cloudy"
-            />
+            <ul>
+              <li>
+                <img
+                  class="result-icon float-right"
+                  src="icon/partly-cloudy.svg"
+                  alt="partly cloudy"
+                />
+              </li>
+            </ul>
           </div>
           <div class="col-6" id="result-weather-right">
             <ul>
               <li>
                 <span id="temperature"></span>°<span id="units"> F | C</span>
               </li>
-              <li>
-                <span id="description"></span>
-              </li>
             </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-6" id="result-details-left">
-            <ul>
-              <li>Humidity: <span id="humidity"></span>%</li>
-            </ul>
-          </div>
-          <div class="col-6" id="result-details-right">
-            <ul>
-              <li>Wind: <span id="wind"></span> mph</li>
-            </ul>
+          <div class="description" id="description"></div>
+          <div>
+            Humidity: <span id="humidity"></span>% | Wind:
+            <span id="wind"></span> mph
           </div>
         </div>
         <div>
@@ -59,6 +53,7 @@
             <h2>This Week</h2>
           </div>
         </div>
+
         <small class="about"
           >Coded by <a href="#" target="_blank">Stacy Abrams</a></small
         >

@@ -80,9 +80,9 @@ small.about {
   font-size: 32px;
   text-align: left;
   padding-right: 0;
-  padding-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0 0 0 0;
-  line-height: 30px;
 }
 
 #result-details-left {
@@ -107,18 +107,20 @@ small.about {
 }
 
 img {
-  height: 80px;
+  height: 70px;
 }
 
 #temperature {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 400;
 }
 
 #units {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 #description {
-  font-size: 28px;
+  font-size: 24px;
+  margin: 0 auto;
+  line-height: 24px;
 }
