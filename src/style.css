@@ -135,3 +135,17 @@ img {
 div.form {
   align-items: center;
 }
+
+.result-weather-right .active {
+  text-decoration: none;
+  color: #2d334a;
+  font-weight: 100;
+  cursor: default;
+}
+
+.result-weather-right .active:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #2d334a;
+  font-weight: 100;
+}
