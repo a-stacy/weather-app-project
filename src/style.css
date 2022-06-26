@@ -173,3 +173,7 @@ div.form {
 img.forecast-icon {
   max-width: 55px;
 }
+
+.weather-forecast-min {
+  opacity: 0.5;
+}
