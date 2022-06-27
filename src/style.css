@@ -134,12 +134,10 @@ img.result-icon {
   text-transform: capitalize;
 }
 
-div.form {
-     align-items: center;
-}
-
-div.row {
+#form {
   align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .result-weather-right .active {
