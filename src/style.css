@@ -108,7 +108,7 @@ small.about {
 }
 .this-week {
   background-color: #e3f6f5;
-  max-width: 60%;
+  max-width: 55%;
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 20px;
@@ -135,6 +135,10 @@ img.result-icon {
 }
 
 div.form {
+     align-items: center;
+}
+
+div.row {
   align-items: center;
 }
 
